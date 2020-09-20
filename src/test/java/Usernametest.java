@@ -4,7 +4,7 @@ public class Usernametest {
     @Test
     public void givenFirstNameWhenProperShouldReturnTrue() {
         Username us = new Username();
-        boolean result = us.userFirstName("Sumalika");
+        boolean result = us.userFirstName("Kiran");
         Assert.assertEquals(true, result);
     }
     @Test
